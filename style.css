@@ -1,0 +1,183 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsl(187, 43%, 84%);
+    font-family: monospace;
+}
+div.t{
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 10px;
+    width: 520px;
+    margin: 30px;
+}
+div.s{
+    border-radius: 10px;
+    margin: 40px;
+    margin-right: 0;
+    width: 520px;
+}
+div.p{
+    display: flex;
+    font-size: 20px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+div.nao{
+    display: flex;
+    flex-direction: row;
+}
+div.resu{
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 50px;
+    width: 200px;
+    text-align: right;
+}
+div.porcem{
+    margin-bottom: 35px;
+}
+div.por{
+    display: flex;
+}
+div.cem{
+    display: flex;
+    margin-top: 10px;
+}
+div.val{
+    margin-bottom: 35px;
+}
+h1.val{
+    margin-bottom: 10px;
+}
+h1{
+    width: 300px;
+    margin-bottom: 20px;
+}
+h2{   margin-bottom: 30px;
+    color: hsl(172, 67%, 45%);
+}
+input.por{
+    display: none;
+    width: 158px;
+    border-radius: 4px;
+    margin-top: 20px;
+    background-color: hsl(183, 100%, 15%);
+    margin-right: 10px;
+}
+input.cem{
+    display: none;
+    width: 158px;
+    background-color: hsl(183, 100%, 15%);
+}
+button.ret{
+    color: #055C63;
+    background-color:  #0D686D;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 126px;
+    margin-bottom: 30px;
+    width: 87.8%;
+}
+input.cus{
+    width: 164.68px;
+    height: 58px;
+    padding: 0;
+    margin-top: 0;
+}
+input:hover{
+    transition: 100ms;
+    border-color: hsl(173, 31%, 52%);
+    border-radius: 4px;
+    border-width: 1px;
+    box-shadow: 0px 0px 3px hsl(173, 31%, 52%);
+}
+input{
+    width: 100%;
+    height: 50px;
+    text-align: right;
+    border-width: 1px;
+    border-color: transparent;
+    background-color: hsl(202, 36%, 96%);
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 40px;
+}
+button{
+    font-size: 40px;
+    font-family: monospace;
+    font-size: 40px;
+    width: 146px;
+    height: 70px;
+    border-radius: 4px;
+    border-width: 0;
+}
+button:hover{
+    transition-duration: 100ms;
+    background-color: hsl(172, 62%, 76%);
+}
+div.final{
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 130px;
+}
+h6{
+    font-weight: normal;
+    color: rgb(155, 155, 155);
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+h4{
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: white;
+}
+label{
+    color: whitesmoke;
+    padding: 5px;
+    margin-right: 10px;
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 10px;
+    width: 320px;
+    height: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+label.label-3{
+    margin-right: 0;
+}
+#lang-1:hover ~ .label-1,
+#lang-2:hover ~ .label-2,
+#lang-3:hover ~ .label-3,
+#lang-4:hover ~ .label-4,
+#lang-5:hover ~ .label-5{
+    color: #004445;
+    background-color: #9FE8E1;
+}
+#lang-1:checked ~ .label-1,
+#lang-2:checked ~ .label-2,
+#lang-3:checked ~ .label-3,
+#lang-4:checked ~ .label-4,
+#lang-5:checked ~ .label-5{
+    color: #004445;
+    background-color: #26C2AD;
+}
+.space-mono-regular {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+input:focus{
+    outline: 0;
+    border-color: hsl(173, 31%, 52%);
+    border-radius: 4px;
+    border-width: 1px;
+    box-shadow: 0px 0px 3px hsl(173, 31%, 52%);
+} 

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="/reset.css">
+  <link rel="stylesheet" href="/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Space+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/style.css">
+
+  <title>tip calculator</title>
+</head>
+<body>
+  <div class="p">
+    <div class="s">
+      <div class="val">
+        <h1 class="val" id="val">Bill</h1>
+        <input type="text" id="dinheiro" class="val">
+      </div>
+      <div class="porcem">
+        <h1>Select Tip %</h1>
+        <div class="por" style="text-align: start;">
+
+          <input id="lang-1" type="radio" name="radio" class="por" onclick="5()">
+          <label for="lang-1" class="label-1">5%</label>
+
+          <input id="lang-2" type="radio" name="radio" class="por" onclick="10()">
+          <label for="lang-2" class="label-2">10%</label>
+
+          <input id="lang-3" type="radio" name="radio" class="por" onclick="15()">
+          <label for="lang-3" class="label-3">15%</label>
+        
+        </div>
+        <div class="cem">
+          <input id="lang-4" type="radio" name="radio" class="cem" onclick="25()"> 
+          <label for="lang-4" class="label-4">25%</label>
+
+          <input id="lang-5" type="radio" name="radio" class="cem" onclick="50()"> 
+          <label for="lang-5" class="label-5">50%</label>
+
+          <input type="text" id="dinheiro" class="cus"/>      
+      </div>
+      </div>
+        <div class="people">
+          <h1 class="people">Number of People</h1>
+          <input class="peoples" type="number" format="currency" >
+        </div>
+      </div>
+    <div class="t">
+      <div class="nao">
+      <div class="final">
+        <div class="finialA"><h4> Tip Amount </h4><h6>/ person</h6></div>
+        <div class="finalB"><h4>Total </h4><h6>/ person</h6></div>
+      </div>
+      <div class="resu">
+        <h2 class="amostra">0,00</h2>
+        <h2 class="bmostra">0,00</h2>
+      </div>
+      </div>
+      <button class="ret" onclick="Calc()">Reset</button>
+    </div>
+  </div>
+    <div class="attribution">Challenge by 
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend Mentor</a>. Coded by 
+    <a href="#">vinicius</a>.
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>    
+  <script src="../script/script.js"></script> 
+</body>
+</html>
